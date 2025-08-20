@@ -1,0 +1,24 @@
+Download selector hub extention
+
+
+locating elements in playwright:
+----------------------------------
+1.elements
+2.xpath
+3.css
+
+locate single elements:
+------------------------
+buttons:
+await page.locator("locator").click();
+await page.click("locator);
+
+inputs:
+await page.locator("locator").fill("vamsee");
+await page.type("//input[@name='fullName']", "vamsee")
+await page.locator("//input[@name='fullName']").fill("vamsee");
+
+
+locate mujltiple web elements
+---------------------------
+await page.$$('//div[@class="branch-card-item"]//h4');
