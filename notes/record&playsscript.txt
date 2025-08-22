@@ -1,0 +1,5 @@
+npx playwright codegen 
+npx playwright codegen --help
+npx playwright codegen ---output tests/mytest.spec.js
+or
+npx playwright codegen ---o tests/mytest.spec.js

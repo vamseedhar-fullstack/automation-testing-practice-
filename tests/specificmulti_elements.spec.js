@@ -12,7 +12,6 @@ test("multiselector", async({page}) => {
 
     const firstCard = allcardtitle[0];
 
-
     const outer = await firstCard.evaluate((el) => el.outerHTML)
     console.log("outer", outer);
 
