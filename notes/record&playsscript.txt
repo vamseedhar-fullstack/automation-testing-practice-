@@ -1,5 +1,8 @@
 npx playwright codegen 
 npx playwright codegen --help
-npx playwright codegen ---output tests/mytest.spec.js
+npx playwright codegen --output tests/mytest.spec.js
 or
-npx playwright codegen ---o tests/mytest.spec.js
+npx playwright codegen -o tests/mytest.spec.js
+npx playwright codegen --target javascript
+npx playwright codegen -b chromium
+npx playwright codegen --device "iphone 13"
